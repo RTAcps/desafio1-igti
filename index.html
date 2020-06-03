@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Dasafio 1 IGTI</title>
+  </head>
+  <body>
+    <div id="spinner">
+      <div class="preloader-wrapper small active">
+        <div class="spinner-layer spinner-green-only">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div>
+          <div class="gap-patch">
+            <div class="circle"></div>
+          </div>
+          <div class="circle-clipper right">
+            <div class="circle"></div>
+          </div>
+        </div>
+      </div>
+      <span>Aguarde...</span>
+    </div>
+
+    <div class="container">
+      <h2>Pesquisa de Usuários</h2>
+
+    <div class="flex-row">
+      <div class="input input-field">
+        <input disabled id="inputSearch" type="text" class="validate" />
+        <label class="input" for="inputSearch">Busca</label>
+      </div>
+      <button id="buttonSearch" class="waves-effect waves-light btn" disabled>
+        Buscar
+      </button>
+    </div>
+    
+    <div class="flex-row flex-row-start">
+      <div class="dataContainer" id="divUsers">Users</div>
+      <div class="dataContainer" id="divStatistics">Statistics</div>
+    </div>
+
+    <footer>
+      <p>
+        Desafio 1 IGTI
+      </p>
+      <p>
+        Feito por Rodrigo Teixeira de Andrade
+      </p>
+      <p>
+        <a
+          href="https://www.linkedin.com/in/rodrigo-teixeira-de-andrade/"
+          target="_blank"
+          >Rodrigo</a
+        >
+      </p>
+    </footer>
+
+    <script
+      defers
+      src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"
+    ></script>
+    <script defers src="./js/script.js"></script>
+  </body>
+</html>
+
+
+
